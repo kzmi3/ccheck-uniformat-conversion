@@ -1,0 +1,371 @@
+Type,Level 1 Code,Level 1 Name,Level 2 Code,Level 2 Name,Level 3 Code,Level 3 Name,Level 4 Code,Level 4 Name
+Building,A,SUBSTRUCTURE,A10,Foundations,A1010,Standard Foundations,A1011,Wall Foundations
+Building,A,SUBSTRUCTURE,A10,Foundations,A1010,Standard Foundations,A1012,Column Foundations & Pile Caps
+Building,A,SUBSTRUCTURE,A10,Foundations,A1010,Standard Foundations,A1013,Perimeter Drainage & Insulation
+Building,A,SUBSTRUCTURE,A10,Foundations,A1020,Special Foundations,A1021,Pile Foundations
+Building,A,SUBSTRUCTURE,A10,Foundations,A1020,Special Foundations,A1022,Grade Beams
+Building,A,SUBSTRUCTURE,A10,Foundations,A1020,Special Foundations,A1023,Caissons
+Building,A,SUBSTRUCTURE,A10,Foundations,A1020,Special Foundations,A1024,Underprinting
+Building,A,SUBSTRUCTURE,A10,Foundations,A1020,Special Foundations,A1025,Dewatering
+Building,A,SUBSTRUCTURE,A10,Foundations,A1020,Special Foundations,A1026,Raft Foundations
+Building,A,SUBSTRUCTURE,A10,Foundations,A1020,Special Foundations,A1027,Pressure Injected Grouting
+Building,A,SUBSTRUCTURE,A10,Foundations,A1020,Special Foundations,A1029,Other Special Conditions
+Building,A,SUBSTRUCTURE,A10,Foundations,A1030,Slab on Grade,A1031,Standard Slab on Grade
+Building,A,SUBSTRUCTURE,A10,Foundations,A1030,Slab on Grade,A1032,Structural Slab on Grade
+Building,A,SUBSTRUCTURE,A10,Foundations,A1030,Slab on Grade,A1033,Inclined Slab on Grade
+Building,A,SUBSTRUCTURE,A10,Foundations,A1030,Slab on Grade,A1034,"Trenches, Pits & Bases"
+Building,A,SUBSTRUCTURE,A10,Foundations,A1030,Slab on Grade,A1035,Under-Slab Drainage & Insulation
+Building,A,SUBSTRUCTURE,A20,Basement Construction,A2010,Basement Excavation,A2011,Excavation for Basements
+Building,A,SUBSTRUCTURE,A20,Basement Construction,A2010,Basement Excavation,A2012,Structure Back Fill & Compaction
+Building,A,SUBSTRUCTURE,A20,Basement Construction,A2010,Basement Excavation,A2013,Shoring
+Building,A,SUBSTRUCTURE,A20,Basement Construction,A2020,Basement Walls,A2021,Basement Wall Construction
+Building,A,SUBSTRUCTURE,A20,Basement Construction,A2020,Basement Walls,A2022,Moisture Protection
+Building,A,SUBSTRUCTURE,A20,Basement Construction,A2020,Basement Walls,A2023,Basement Wall Insulation
+Building,A,SUBSTRUCTURE,A20,Basement Construction,A2020,Basement Walls,A2024,Interior Skin
+Building,B,SHELL,B10,Superstructure,B1010,Floor Construction,B1011,Suspended Basement Floors Construction
+Building,B,SHELL,B10,Superstructure,B1010,Floor Construction,B1012,Upper Floors Construction
+Building,B,SHELL,B10,Superstructure,B1010,Floor Construction,B1013,Balcony Floors Construction
+Building,B,SHELL,B10,Superstructure,B1010,Floor Construction,B1014,Ramps
+Building,B,SHELL,B10,Superstructure,B1010,Floor Construction,B1015,Exterior Stairs and Fire Escapes
+Building,B,SHELL,B10,Superstructure,B1010,Floor Construction,B1016,Floor Raceway Systems
+Building,B,SHELL,B10,Superstructure,B1010,Floor Construction,B1019,Other Floor Construction
+Building,B,SHELL,B10,Superstructure,B1020,Roof Construction,B1021,Flat Roof Construction
+Building,B,SHELL,B10,Superstructure,B1020,Roof Construction,B1022,Pitched Roof Construction
+Building,B,SHELL,B10,Superstructure,B1020,Roof Construction,B1023,Canopies
+Building,B,SHELL,B10,Superstructure,B1020,Roof Construction,B1029,Other Roof Systems
+Building,B,SHELL,B20,Exterior Enclosure,B2010,Exterior Walls,B2011,Exterior Wall Construction
+Building,B,SHELL,B20,Exterior Enclosure,B2010,Exterior Walls,B2012,Parapets
+Building,B,SHELL,B20,Exterior Enclosure,B2010,Exterior Walls,B2013,"Exterior Louvers, Screens, and Fencing"
+Building,B,SHELL,B20,Exterior Enclosure,B2010,Exterior Walls,B2014,Exterior Sun Control Devices
+Building,B,SHELL,B20,Exterior Enclosure,B2010,Exterior Walls,B2015,Balcony Walls & Handrails
+Building,B,SHELL,B20,Exterior Enclosure,B2010,Exterior Walls,B2016,Exterior Soffits
+Building,B,SHELL,B20,Exterior Enclosure,B2020,Exterior Windows,B2021,Windows
+Building,B,SHELL,B20,Exterior Enclosure,B2020,Exterior Windows,B2022,Curtain Walls
+Building,B,SHELL,B20,Exterior Enclosure,B2020,Exterior Windows,B2023,Storefronts
+Building,B,SHELL,B20,Exterior Enclosure,B2030,Exterior Doors,B2031,Glazed Doors & Entrances
+Building,B,SHELL,B20,Exterior Enclosure,B2030,Exterior Doors,B2032,Solid Exterior Doors
+Building,B,SHELL,B20,Exterior Enclosure,B2030,Exterior Doors,B2033,Revolving Doors
+Building,B,SHELL,B20,Exterior Enclosure,B2030,Exterior Doors,B2034,Overhead Doors
+Building,B,SHELL,B20,Exterior Enclosure,B2030,Exterior Doors,B2039,Other Doors & Entrances
+Building,B,SHELL,B30,Roofing,B3010,Roof Coverings,B3011,Roof Finishes
+Building,B,SHELL,B30,Roofing,B3010,Roof Coverings,B3012,Traffic Toppings & Paving Membranes
+Building,B,SHELL,B30,Roofing,B3010,Roof Coverings,B3013,Roof Insulation & Fill
+Building,B,SHELL,B30,Roofing,B3010,Roof Coverings,B3014,Flashings & Trim
+Building,B,SHELL,B30,Roofing,B3010,Roof Coverings,B3015,Roof Eaves and Soffits
+Building,B,SHELL,B30,Roofing,B3010,Roof Coverings,B3016,Gutters and Downspouts
+Building,B,SHELL,B30,Roofing,B3020,Roof Openings,B3021,Glazed Roof Openings
+Building,B,SHELL,B30,Roofing,B3020,Roof Openings,B3022,Roof Hatches
+Building,B,SHELL,B30,Roofing,B3020,Roof Openings,B3023,Gravity Roof Ventilators
+Building,C,INTERIORS,C10,Interior Construction,C1010,Partitions,C1011,Fixed Partitions
+Building,C,INTERIORS,C10,Interior Construction,C1010,Partitions,C1012,Demountable Partitions
+Building,C,INTERIORS,C10,Interior Construction,C1010,Partitions,C1013,Retractable Partitions
+Building,C,INTERIORS,C10,Interior Construction,C1010,Partitions,C1014,Site Built Toilet Partitions
+Building,C,INTERIORS,C10,Interior Construction,C1010,Partitions,C1015,Site Built Compartments Cubicles
+Building,C,INTERIORS,C10,Interior Construction,C1010,Partitions,C1016,Interior Balustrades and Screens
+Building,C,INTERIORS,C10,Interior Construction,C1010,Partitions,C1017,Interior Windows & Storefronts
+Building,C,INTERIORS,C10,Interior Construction,C1020,Interior Doors,C1021,Interior Doors
+Building,C,INTERIORS,C10,Interior Construction,C1020,Interior Doors,C1022,Interior Door Frames
+Building,C,INTERIORS,C10,Interior Construction,C1020,Interior Doors,C1023,Interior Door Hardware
+Building,C,INTERIORS,C10,Interior Construction,C1020,Interior Doors,C1024,Interior Door Wall Opening Elements
+Building,C,INTERIORS,C10,Interior Construction,C1020,Interior Doors,C1025,Interior Door Sidelights & Transoms
+Building,C,INTERIORS,C10,Interior Construction,C1020,Interior Doors,C1026,Interior Hatches & Access Doors
+Building,C,INTERIORS,C10,Interior Construction,C1020,Interior Doors,C1027,Door Painting & Decoration
+Building,C,INTERIORS,C10,Interior Construction,C1030,Fittings,C1031,Fabricated Toilet Partitions
+Building,C,INTERIORS,C10,Interior Construction,C1030,Fittings,C1032,Fabricated Compartments & Cubicles
+Building,C,INTERIORS,C10,Interior Construction,C1030,Fittings,C1033,Storage Shelving and Lockers
+Building,C,INTERIORS,C10,Interior Construction,C1030,Fittings,C1034,Ornamental Metals and Handrails
+Building,C,INTERIORS,C10,Interior Construction,C1030,Fittings,C1035,Identifying Devices
+Building,C,INTERIORS,C10,Interior Construction,C1030,Fittings,C1036,Closet Specialties
+Building,C,INTERIORS,C10,Interior Construction,C1030,Fittings,C1037,General Fittings & Misc. Metals
+Building,C,INTERIORS,C20,Stairs,C2010,Stair Construction,C2011,Regular Stairs
+Building,C,INTERIORS,C20,Stairs,C2010,Stair Construction,C2012,Curved Stairs
+Building,C,INTERIORS,C20,Stairs,C2010,Stair Construction,C2013,Spiral Stairs
+Building,C,INTERIORS,C20,Stairs,C2010,Stair Construction,C2014,Stair Handrails and Balustrades
+Building,C,INTERIORS,C20,Stairs,C2020,Stair Finishes,C2021,"Stair, Tread, and Landing Finishes"
+Building,C,INTERIORS,C20,Stairs,C2020,Stair Finishes,C2022,Stair Soffit Finishes
+Building,C,INTERIORS,C20,Stairs,C2020,Stair Finishes,C2023,Stair Handrail & Balustrade Finishes
+Building,C,INTERIORS,C30,Interior Finishes,C3010,Wall Finishes,C3011,Wall Finishes to Inside Exterior Walls
+Building,C,INTERIORS,C30,Interior Finishes,C3010,Wall Finishes,C3012,Wall Finishes to Interior Walls
+Building,C,INTERIORS,C30,Interior Finishes,C3010,Wall Finishes,C3013,Column Finishes
+Building,C,INTERIORS,C30,Interior Finishes,C3020,Floor Finishes,C3021,Floor Toppings
+Building,C,INTERIORS,C30,Interior Finishes,C3020,Floor Finishes,C3022,Traffic Membranes
+Building,C,INTERIORS,C30,Interior Finishes,C3020,Floor Finishes,C3023,Hardeners and Sealers
+Building,C,INTERIORS,C30,Interior Finishes,C3020,Floor Finishes,C3024,Flooring
+Building,C,INTERIORS,C30,Interior Finishes,C3020,Floor Finishes,C3025,Carpeting
+Building,C,INTERIORS,C30,Interior Finishes,C3020,Floor Finishes,C3026,"Bases, Curbs and Trim"
+Building,C,INTERIORS,C30,Interior Finishes,C3020,Floor Finishes,C3027,Access Pedastal Flooring
+Building,C,INTERIORS,C30,Interior Finishes,C3030,Ceiling Finishes,C3031,Ceiling Finishes
+Building,C,INTERIORS,C30,Interior Finishes,C3030,Ceiling Finishes,C3032,Suspended Ceilings
+Building,C,INTERIORS,C30,Interior Finishes,C3030,Ceiling Finishes,C3033,Other Ceilings
+Building,D,SERVICES,D10,Conveying,D1010,Elevators & Lifts,D1011,Passenger Elevators
+Building,D,SERVICES,D10,Conveying,D1010,Elevators & Lifts,D1012,Freight Elevators
+Building,D,SERVICES,D10,Conveying,D1010,Elevators & Lifts,D1013,Lifts
+Building,D,SERVICES,D10,Conveying,D1020,Escalators & Moving Walks,D1021,Escalators
+Building,D,SERVICES,D10,Conveying,D1020,Escalators & Moving Walks,D1022,Moving Walks
+Building,D,SERVICES,D10,Conveying,D1090,Other Conveying Systems,D1091,Dumbwaiters
+Building,D,SERVICES,D10,Conveying,D1090,Other Conveying Systems,D1092,Pneumatic Tube Systems
+Building,D,SERVICES,D10,Conveying,D1090,Other Conveying Systems,D1093,Hoists & Cranes
+Building,D,SERVICES,D10,Conveying,D1090,Other Conveying Systems,D1094,Conveyors
+Building,D,SERVICES,D10,Conveying,D1090,Other Conveying Systems,D1095,Chutes
+Building,D,SERVICES,D10,Conveying,D1090,Other Conveying Systems,D1096,Turntables
+Building,D,SERVICES,D10,Conveying,D1090,Other Conveying Systems,D1097,Baggage Handling & Loading Systems
+Building,D,SERVICES,D10,Conveying,D1090,Other Conveying Systems,D1098,Transportation Systems
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2011,Water Closets
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2012,Urinals
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2013,Lavatories
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2014,Sinks
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2015,Bathtubs
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2016,Wash Fountains
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2017,Showers
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2018,Drinking Fountains and Coolers
+Building,D,SERVICES,D20,Plumbing,D2010,Plumbing Fixtures,D2019,Bidets and Other Plumbing Fixtures
+Building,D,SERVICES,D20,Plumbing,D2020,Domestic Water Distribution,D2021,Cold Water Service
+Building,D,SERVICES,D20,Plumbing,D2020,Domestic Water Distribution,D2022,Hot Water Service
+Building,D,SERVICES,D20,Plumbing,D2020,Domestic Water Distribution,D2023,Domestic Water Supply Equipment
+Building,D,SERVICES,D20,Plumbing,D2030,Sanitary Waste,D2031,Waste Piping
+Building,D,SERVICES,D20,Plumbing,D2030,Sanitary Waste,D2032,Vent Piping
+Building,D,SERVICES,D20,Plumbing,D2030,Sanitary Waste,D2033,Floor Drains
+Building,D,SERVICES,D20,Plumbing,D2030,Sanitary Waste,D2034,Sanitary Waste Equipment
+Building,D,SERVICES,D20,Plumbing,D2030,Sanitary Waste,D2035,Pipe Insulation
+Building,D,SERVICES,D20,Plumbing,D2040,Rain Water Drainage,D2041,Pipe & Fittings
+Building,D,SERVICES,D20,Plumbing,D2040,Rain Water Drainage,D2042,Roof Drains
+Building,D,SERVICES,D20,Plumbing,D2040,Rain Water Drainage,D2043,Rainwater Drainage Equipment
+Building,D,SERVICES,D20,Plumbing,D2040,Rain Water Drainage,D2044,Pipe Insulation
+Building,D,SERVICES,D20,Plumbing,D2090,Other Plumbing Systems,D2091,Gas Distribution
+Building,D,SERVICES,D20,Plumbing,D2090,Other Plumbing Systems,D2092,Acid Waste Systems
+Building,D,SERVICES,D20,Plumbing,D2090,Other Plumbing Systems,D2093,Interceptors
+Building,D,SERVICES,D20,Plumbing,D2090,Other Plumbing Systems,D2094,Pool Piping and Equipment
+Building,D,SERVICES,D20,Plumbing,D2090,Other Plumbing Systems,D2095,Decorative Fountain Piping Devices
+Building,D,SERVICES,D20,Plumbing,D2090,Other Plumbing Systems,D2099,Other Piping Systems
+Building,D,SERVICES,D30,HVAC,D3010,Energy Supply,D3011,Oil Supply System
+Building,D,SERVICES,D30,HVAC,D3010,Energy Supply,D3012,Gas Supply System
+Building,D,SERVICES,D30,HVAC,D3010,Energy Supply,D3013,Coal Supply System
+Building,D,SERVICES,D30,HVAC,D3010,Energy Supply,D3014,Steam Supply System
+Building,D,SERVICES,D30,HVAC,D3010,Energy Supply,D3015,Hot Water Supply System
+Building,D,SERVICES,D30,HVAC,D3010,Energy Supply,D3016,Solar Energy System
+Building,D,SERVICES,D30,HVAC,D3010,Energy Supply,D3017,Wind Energy System
+Building,D,SERVICES,D30,HVAC,D3020,Heat Generating Systems,D3021,Boilers
+Building,D,SERVICES,D30,HVAC,D3020,Heat Generating Systems,D3022,Boiler Room Piping & Specialties
+Building,D,SERVICES,D30,HVAC,D3020,Heat Generating Systems,D3023,Auxiliary Equipment
+Building,D,SERVICES,D30,HVAC,D3020,Heat Generating Systems,D3024,Insulation
+Building,D,SERVICES,D30,HVAC,D3030,Cooling Generating Systems,D3031,Chilled Water Systems
+Building,D,SERVICES,D30,HVAC,D3030,Cooling Generating Systems,D3032,Direct Expansion Systems
+Building,D,SERVICES,D30,HVAC,D3040,Distribution Systems,D3041,Air Distribution Systems
+Building,D,SERVICES,D30,HVAC,D3040,Distribution Systems,D3042,Exhaust Ventilation Systems
+Building,D,SERVICES,D30,HVAC,D3040,Distribution Systems,D3043,Steam Distribution Systems
+Building,D,SERVICES,D30,HVAC,D3040,Distribution Systems,D3044,Hot Water Distribution
+Building,D,SERVICES,D30,HVAC,D3040,Distribution Systems,D3045,Chilled Water Distribution
+Building,D,SERVICES,D30,HVAC,D3040,Distribution Systems,D3046,Change-over Distribution System
+Building,D,SERVICES,D30,HVAC,D3040,Distribution Systems,D3047,Glycol Distribution Systems
+Building,D,SERVICES,D30,HVAC,D3050,Terminal & Package Units,D3051,Terminal Self-Contained Units
+Building,D,SERVICES,D30,HVAC,D3050,Terminal & Package Units,D3052,Package Units
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3061,Heating Generating Systems
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3062,Cooling Generating Systems
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3063,Heating/Cooling Air Handling Units
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3064,Exhaust & Ventilating Systems
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3065,Hoods and Exhaust Systems
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3066,Terminal Devices
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3067,Energy Monitoring & Control
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3068,Building Automation Systems
+Building,D,SERVICES,D30,HVAC,D3060,Controls & Instrumentation,D3069,Other Controls & Instrumentation
+Building,D,SERVICES,D30,HVAC,D3070,Systems Testing & Balancing,D3071,Piping System Testing & Balancing
+Building,D,SERVICES,D30,HVAC,D3070,Systems Testing & Balancing,D3072,Air Systems Testing & Balancing
+Building,D,SERVICES,D30,HVAC,D3070,Systems Testing & Balancing,D3073,HVAC Commissioning
+Building,D,SERVICES,D30,HVAC,D3070,Systems Testing & Balancing,D3079,Other Systems Testing and Balancing
+Building,D,SERVICES,D30,HVAC,D3090,Other HVAC Systems & Equipment,D3091,Special Cooling Systems & Devices
+Building,D,SERVICES,D30,HVAC,D3090,Other HVAC Systems & Equipment,D3092,Special Humidity Control
+Building,D,SERVICES,D30,HVAC,D3090,Other HVAC Systems & Equipment,D3093,Dust & Fume Collectors
+Building,D,SERVICES,D30,HVAC,D3090,Other HVAC Systems & Equipment,D3094,Air Curtains
+Building,D,SERVICES,D30,HVAC,D3090,Other HVAC Systems & Equipment,D3095,Air Purifiers
+Building,D,SERVICES,D30,HVAC,D3090,Other HVAC Systems & Equipment,D3096,Paint Spray Booth Ventilation
+Building,D,SERVICES,D30,HVAC,D3090,Other HVAC Systems & Equipment,D3097,General Construction Items (HVAC)
+Building,D,SERVICES,D40,Fire Protection,D4010,Sprinklers,D4011,Sprinkler Water Supply
+Building,D,SERVICES,D40,Fire Protection,D4010,Sprinklers,D4012,Sprinkler Pumping Equipment
+Building,D,SERVICES,D40,Fire Protection,D4010,Sprinklers,D4013,Dry Sprinkler System
+Building,D,SERVICES,D40,Fire Protection,D4020,Standpipes,D4021,Standpipe Water Supply
+Building,D,SERVICES,D40,Fire Protection,D4020,Standpipes,D4022,Pumping Equipment
+Building,D,SERVICES,D40,Fire Protection,D4020,Standpipes,D4023,Standpipe Equipment
+Building,D,SERVICES,D40,Fire Protection,D4020,Standpipes,D4024,Fire Hose Equipment
+Building,D,SERVICES,D40,Fire Protection,D4030,Fire Protection Specialties,D4031,Fire Extinguishers
+Building,D,SERVICES,D40,Fire Protection,D4030,Fire Protection Specialties,D4032,Fire Extinguisher Cabinets
+Building,D,SERVICES,D40,Fire Protection,D4090,Other Fire Protection Systems,D4091,Carbon Dioxide Systems
+Building,D,SERVICES,D40,Fire Protection,D4090,Other Fire Protection Systems,D4092,Foam Generating Equipment
+Building,D,SERVICES,D40,Fire Protection,D4090,Other Fire Protection Systems,D4093,Clean Agent Systems
+Building,D,SERVICES,D40,Fire Protection,D4090,Other Fire Protection Systems,D4094,Dry Chemical System
+Building,D,SERVICES,D40,Fire Protection,D4090,Other Fire Protection Systems,D4095,Hood & Duct Fire Protection
+Building,D,SERVICES,D50,Electrical,D5010,Electrical Service & Distribution,D5011,High Tension Service & Dist.
+Building,D,SERVICES,D50,Electrical,D5010,Electrical Service & Distribution,D5012,Low Tension Service & Dist.
+Building,D,SERVICES,D50,Electrical,D5020,Lighting & Branch Wiring,D5021,Branch Wiring Devices
+Building,D,SERVICES,D50,Electrical,D5020,Lighting & Branch Wiring,D5022,Lighting Equipment
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5031,Public Address & Music Systems
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5032,Intercommunication & Paging System
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5033,Telephone Systems
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5034,Call Systems
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5035,Television Systems
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5036,Clock and Program Systems
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5037,Fire Alarm Systems
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5038,Security and Detection Systems
+Building,D,SERVICES,D50,Electrical,D5030,Communications & Security,D5039,Local Area Networks
+Building,D,SERVICES,D50,Electrical,D5090,Other Electrical System,D5091,Grounding Systems
+Building,D,SERVICES,D50,Electrical,D5090,Other Electrical System,D5092,Emergency Light & Power Systems
+Building,D,SERVICES,D50,Electrical,D5090,Other Electrical System,D5093,Floor Raceway Systems
+Building,D,SERVICES,D50,Electrical,D5090,Other Electrical System,D5094,Other Special Systems & Devices
+Building,D,SERVICES,D50,Electrical,D5090,Other Electrical System,D5095,General Construction Items (Elect.)
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1010,Commercial Equipment,E1011,Security & Vault Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1010,Commercial Equipment,E1012,Teller and Service Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1010,Commercial Equipment,E1013,Registration Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1010,Commercial Equipment,E1014,Checkroom Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1010,Commercial Equipment,E1015,Mercantile Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1010,Commercial Equipment,E1016,Laundry & Dry Cleaning Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1010,Commercial Equipment,E1017,Vending Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1010,Commercial Equipment,E1018,Office Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1021,Ecclesiastical Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1022,Library Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1023,Theater & Stage Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1024,Instrumental Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1025,Audio-visual Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1026,Detention Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1027,Laboratory Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1028,Medical Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1020,Institutional Equipment,E1029,Other Institutional Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1030,Vehicular Equipment,E1031,Vehicular Service Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1030,Vehicular Equipment,E1032,Parking Control Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1030,Vehicular Equipment,E1033,Loading Dock Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1030,Vehicular Equipment,E1039,Other Vehicular Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1090,Other Equipment,E1091,Maintenance Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1090,Other Equipment,E1092,Solid Waste Handling Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1090,Other Equipment,E1093,Food Service Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1090,Other Equipment,E1094,Residential Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1090,Other Equipment,E1095,Unit Kitchens
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1090,Other Equipment,E1097,Window Washing Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E10,Equipment,E1090,Other Equipment,E1099,Other Equipment
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2010,Fixed Furnishings,E2011,Fixed Artwork
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2010,Fixed Furnishings,E2012,Fixed Casework
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2010,Fixed Furnishings,E2013,Blinds and Other Window Treatment
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2010,Fixed Furnishings,E2014,Fixed Floor Grilles and Mats
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2010,Fixed Furnishings,E2015,Fixed Multiple Seating
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2010,Fixed Furnishings,E2016,Fixed Interior Landscaping
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2020,Movable Furnishings,E2021,Movable Artwork
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2020,Movable Furnishings,E2022,Furniture & Accessories
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2020,Movable Furnishings,E2023,Movable Rugs and Mats
+Building,E,EQUIPMENT & FURNISHINGS,E20,Furnishings,E2020,Movable Furnishings,E2024,Movable Interior Landscaping
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1010,Special Structures,F1011,Air Supported Structures
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1010,Special Structures,F1012,Pre-engineered Structures
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1010,Special Structures,F1013,Other Special Structures
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1020,Integrated Construction,F1021,Integrated Assemblies
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1020,Integrated Construction,F1022,Special Purpose Rooms
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1020,Integrated Construction,F1023,Other Integrated Construction
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1030,Special Construction Systems,F1031,"Sound, Vibration & Seismic Const."
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1030,Special Construction Systems,F1032,Radiation Protection
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1030,Special Construction Systems,F1033,Special Security Systems
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1030,Special Construction Systems,F1034,Vaults
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1030,Special Construction Systems,F1039,Other Special Construction Systems
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1040,Special Facilities,F1041,Aquatic Facilities
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1040,Special Facilities,F1042,Ice Rinks
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1040,Special Facilities,F1043,Site Constructed Incinerators
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1040,Special Facilities,F1044,Kennels & Animal Shelters
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1040,Special Facilities,F1045,Liquid & Gas Storage Tanks
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1040,Special Facilities,F1049,Other Special Facilities
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1050,Special Controls & Instrumentation,F1051,Recording Instrumentation
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1050,Special Controls & Instrumentation,F1052,Building Automation System
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F10,Special Construction,F1050,Special Controls & Instrumentation,F1059,Other Special Controls & Instrumentation
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F20,Selective Building Demolition,F2010,Building Elements Demolition,F2011,Building Interior Demolition
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F20,Selective Building Demolition,F2010,Building Elements Demolition,F2012,Building Exterior Demolition
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F20,Selective Building Demolition,F2020,Hazardous Components Abatement,F2021,Removal of Hazardous Components
+Building,F,SPECIAL CONSTRUCTION & DEMOLITION,F20,Selective Building Demolition,F2020,Hazardous Components Abatement,F2022,Encapsulation of Hazardous Components
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1010,Site Clearing,G1011,Clearing & Grubbing
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1010,Site Clearing,G1012,Tree Removal & Thinning
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1020,Site Demolition and Relocations,G1021,Building Demolition
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1020,Site Demolition and Relocations,G1022,Demolition of Site Components
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1020,Site Demolition and Relocations,G1023,Relocation of Building & Utilities
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1020,Site Demolition and Relocations,G1024,Utilities Relocation
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1030,Site Earthwork,G1031,Site Grading Excavation
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1030,Site Earthwork,G1032,Borrow Fill
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1030,Site Earthwork,G1033,Soil Stabilization & Treatment
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1030,Site Earthwork,G1034,Site Dewatering
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1030,Site Earthwork,G1035,Site Shoring
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1030,Site Earthwork,G1036,Embankments
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1030,Site Earthwork,G1037,Erosion Control
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1040,Hazardous Waste Remediation,G1041,Removal of Contaminated Soil
+Sitework,G,BUILDING SITEWORK,G10,Site Preparation,G1040,Hazardous Waste Remediation,G1042,Soil Restoration & Treatment
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2010,Roadways,G2011,Bases and Sub-Bases
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2010,Roadways,G2012,Paving & Surfacing
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2010,Roadways,G2013,Curbs Gutters & Drains
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2010,Roadways,G2014,Guardrails and Barriers
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2010,Roadways,G2015,Painted Lines
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2010,Roadways,G2016,Markings & Signage
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2010,Roadways,G2017,Vehicular Bridges
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2020,Parking Lots,G2021,Bases and Sub-Bases
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2020,Parking Lots,G2022,Paving & Surfacing
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2020,Parking Lots,G2023,"Curbs, Rails & Barriers"
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2020,Parking Lots,G2024,Parking Booths & Equipment
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2020,Parking Lots,G2025,Markings & Signage
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2030,Pedestrian Paving,G2031,Paving & Surfacing
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2030,Pedestrian Paving,G2032,Edging
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2030,Pedestrian Paving,G2033,Exterior Steps
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2030,Pedestrian Paving,G2034,Pedestrian Bridges
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2041,Fences & Gates
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2042,Retaining Walls
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2043,Terrace & Perimeter Walls
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2044,Signage
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2045,Site Furnishings
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2046,"Fountains, Pools, & Watercourses"
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2047,Playing Fields
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2048,Flagpoles
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2040,Site Development,G2049,Miscellaneous Structures
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2050,Landscaping,G2051,Fine Grading & Soil Preparation
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2050,Landscaping,G2052,Erosion Control Measures
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2050,Landscaping,G2053,Top Soil and Planting Beds
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2050,Landscaping,G2054,Seeding and Sodding
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2050,Landscaping,G2055,Planting
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2050,Landscaping,G2056,Planters
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2050,Landscaping,G2057,Irrigation Systems
+Sitework,G,BUILDING SITEWORK,G20,Site Improvements,G2050,Landscaping,G2059,Other Landscape Features
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3010,Water Supply,G3011,Potable Water Distribution and Storage
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3010,Water Supply,G3012,Non Potable Water Distrib. and Storage
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3010,Water Supply,G3013,Well Systems
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3010,Water Supply,G3014,Fire Protection Distribution and Storage
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3010,Water Supply,G3015,Pumping Stations
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3010,Water Supply,G3016,Package Water Treatment Plants
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3020,Sanitary Sewer,G3021,Piping
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3020,Sanitary Sewer,G3022,Manholes & Cleanouts
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3020,Sanitary Sewer,G3023,Septic Disposal Systems
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3020,Sanitary Sewer,G3024,Lift Stations
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3020,Sanitary Sewer,G3025,Packaged Water Waste Treatment Plants
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3020,Sanitary Sewer,G3026,Septic Tanks
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3020,Sanitary Sewer,G3027,Drain Fields
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3030,Storm Sewer,G3031,Piping
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3030,Storm Sewer,G3032,Manholes
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3030,Storm Sewer,G3033,Headwalls & Catch Basins
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3030,Storm Sewer,G3034,Lift Stations
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3030,Storm Sewer,G3035,Retention Ponds
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3030,Storm Sewer,G3036,Ditches & Culverts
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3040,Heating Distribution,G3041,Steam Supply
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3040,Heating Distribution,G3042,Condensate Return
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3040,Heating Distribution,G3043,Hot Water Supply System
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3040,Heating Distribution,G3044,Pumping Stations
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3050,Cooling Distribution,G3051,Chilled Water Piping
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3050,Cooling Distribution,G3052,Wells for Cooling/Heating
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3050,Cooling Distribution,G3053,Pumping Stations
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3050,Cooling Distribution,G3054,Cooling Towers on Site
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3060,Fuel Distribution,G3061,Fuel Piping
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3060,Fuel Distribution,G3062,Fuel Equipment
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3060,Fuel Distribution,G3063,Fuel Storage Tanks
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3060,Fuel Distribution,G3064,Fuel Dispensing Stations
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3090,Other Site Mechanical Utilities,G3091,Industrial Waste Systems
+Sitework,G,BUILDING SITEWORK,G30,Site Mechanical Utilities,G3090,Other Site Mechanical Utilities,G3092,POL (Petroleum Oil & Lubricants) Distribution Systems
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4010,Electrical Distribution,G4011,Substations
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4010,Electrical Distribution,G4012,Overhead Power Distribution
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4010,Electrical Distribution,G4013,Underground Power Distribution
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4020,Site Lighting,G4021,Fixtures & Transformers
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4020,Site Lighting,G4022,Poles
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4020,Site Lighting,G4023,Wiring Conduits & Ductbanks
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4020,Site Lighting,G4024,Site Lighting Controls
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4030,Site Communications & Security,G4031,Site Communications Systems
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4030,Site Communications & Security,G4032,Site Security & Alarm Systems
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4090,Other Site Electrical Utilities,G4091,Cathodic Protection
+Sitework,G,BUILDING SITEWORK,G40,Site Electrical Utilities,G4090,Other Site Electrical Utilities,G4092,Site Emergency Power Generation
+Sitework,G,BUILDING SITEWORK,G90,Other Site Construction,G9010,Service and Pedestrian Tunnels,G9011,Service Tunnels
+Sitework,G,BUILDING SITEWORK,G90,Other Site Construction,G9010,Service and Pedestrian Tunnels,G9012,Trench Boxes
+Sitework,G,BUILDING SITEWORK,G90,Other Site Construction,G9010,Service and Pedestrian Tunnels,G9013,Pedestrian Tunnels
+Sitework,G,BUILDING SITEWORK,G90,Other Site Construction,G9090,Other Site Systems,G9091,Snow Melting Systems
