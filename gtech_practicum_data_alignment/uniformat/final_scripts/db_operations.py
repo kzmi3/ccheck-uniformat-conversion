@@ -1,6 +1,4 @@
 import sqlite3
-import pandas as pd
-import os
 
 def setup_database(db_name="uniformat.db"):
     conn = sqlite3.connect(db_name)

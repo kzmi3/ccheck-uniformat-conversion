@@ -67,7 +67,6 @@ def get_initial_uniformat_details_from_gemini_no_desc(text_content, api_key, max
         return None
 
     genai.configure(api_key=api_key)
-    # Using 'gemini-1.5-flash-latest' for Part 1 as well, for consistency and potential token benefits
     model = genai.GenerativeModel('gemini-2.5-flash')
 
     system_instruction = (
@@ -109,7 +108,7 @@ def get_initial_uniformat_details_from_gemini_no_desc(text_content, api_key, max
 
             parsed_json = json.loads(response.text)
 
-            # --- DEBUG: Verify Parsed JSON Structure (first 2 entries and A1030 if present) ---
+            # --- DEBUG: Verify Parsed JSON Structure ---
             print("\n--- DEBUG: Gemini Part 1 Parsed JSON (first 2 entries + A1030 if found) ---")
             debug_entries = parsed_json[:2]
             a1030_entry = next((item for item in parsed_json if item.get('level3_code') == 'A1030'), None)
