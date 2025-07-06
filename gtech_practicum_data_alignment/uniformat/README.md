@@ -11,7 +11,6 @@ This repository contains the code and resources for extracting, enriching, and e
     * [Running the Data Processing Workflow](#running-the-data-processing-workflow)
 3.  [Data](#data)
 4.  [Model (AI/LLM)](#model-aillm)
-5.  [Repository Structure](#repository-structure)
 
 ---
 
@@ -76,23 +75,5 @@ This project leverages the **Google Gemini AI** (specifically `gemini-1.5-flash-
 * Accurately extracting "Includes" and "Excludes" lists from unstructured text in the PDF.
 * Generating comprehensive and detailed descriptions for each Uniformat Level 3 element based on its name, inclusions, and exclusions.
 
----
 
-## 5. Repository Structure
-
-.
-├── .env                  \# Environment variables (e.g., GEMINI\_API\_KEY) - NOT committed
-├── .gitignore            \# Specifies intentionally untracked files to ignore
-├── README.md             \# Project overview and setup instructions
-├── environment.yml     \# Python dependencies
-├── uniformat.db          \# SQLite database (generated after running workflow)
-├── data\_sources/
-│   ├── uniformat-ii-codes.csv
-│   └── uniformat-guide.pdf
-└── final\_scripts/
-├── **init**.py           \# Makes final\_scripts a Python package
-├── Data\_preprocessing.ipynb \# Main notebook to run the workflow
-├── db\_operations.py      \# Functions for database interactions
-├── gemini\_processor.py   \# Functions for interacting with Google Gemini API
-└── pdf\_extractor.py      \# Functions for extracting text from PDF
 
