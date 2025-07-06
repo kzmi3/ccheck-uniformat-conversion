@@ -3,14 +3,14 @@
 This repository contains the code and resources for extracting, enriching, and exploring Uniformat II construction classification codes using a combination of PDF parsing, Google Gemini AI, and a SQLite database.
 
 ## Table of Contents
-1.  [Project Overview](#project-overview)
-2.  [Setup](#setup)
-    * [Prerequisites](#prerequisites)
-    * [Environment Variables](#environment-variables)
-    * [Installation](#installation)
-    * [Running the Data Processing Workflow](#running-the-data-processing-workflow)
-3.  [Data](#data)
-4.  [Model (AI/LLM)](#model-aillm)
+1.  Project Overview
+2.  Setup
+    * Prerequisites
+    * Environment Variables
+    * Installation
+    * Running the Data Processing Workflow
+3.  Data
+4.  Model (AI/LLM)
 
 ---
 
