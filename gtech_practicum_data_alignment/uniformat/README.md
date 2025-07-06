@@ -1,4 +1,3 @@
-````markdown
 # Uniformat II Data Enrichment Project
 
 This repository contains the code and resources for extracting, enriching, and exploring Uniformat II construction classification codes using a combination of PDF parsing, Google Gemini AI, and a SQLite database.
