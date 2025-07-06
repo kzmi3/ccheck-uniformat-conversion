@@ -2,6 +2,7 @@ import google.generativeai as genai
 import json
 import time
 
+# Define appropriate limits for Gemini API 
 RPM_LIMIT = 10  # Requests Per Minute
 TPM_LIMIT = 250000 # Tokens Per Minute 
 RPD_LIMIT = 250 # Requests Per Day 
@@ -187,7 +188,7 @@ def generate_enhanced_description_with_gemini_batch(elements_batch, api_key, max
                 generation_config=genai.GenerationConfig(
                     response_mime_type="application/json",
                     temperature=0.7,
-                    max_output_tokens=500 * len(elements_batch) # Adjust max tokens based on expected output size for batch
+                    max_output_tokens=2000 * len(elements_batch)
                 )
             )
             print(f"Gemini API call successful for batch.")

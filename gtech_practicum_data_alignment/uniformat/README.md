@@ -1,3 +1,4 @@
+````markdown
 # Uniformat II Data Enrichment Project
 
 This repository contains the code and resources for extracting, enriching, and exploring Uniformat II construction classification codes using a combination of PDF parsing, Google Gemini AI, and a SQLite database.
@@ -9,12 +10,9 @@ This repository contains the code and resources for extracting, enriching, and e
     * [Environment Variables](#environment-variables)
     * [Installation](#installation)
     * [Running the Data Processing Workflow](#running-the-data-processing-workflow)
-    * [Running the Dashboard](#running-the-dashboard)
 3.  [Data](#data)
 4.  [Model (AI/LLM)](#model-aillm)
 5.  [Repository Structure](#repository-structure)
-6.  [Code Guidelines & Collaborators](#code-guidelines--collaborators)
-7.  [License](#license)
 
 ---
 
@@ -25,7 +23,6 @@ The goal of this project is to create a comprehensive and enriched database of U
 * Extracting detailed "Includes" and "Excludes" lists from a Uniformat II guide PDF using PDF parsing and Google Gemini AI.
 * Leveraging Google Gemini AI to generate rich, detailed descriptions for each Uniformat Level 3 element, combining information from their names, inclusions, and exclusions.
 * Storing all this structured information in a SQLite database.
-* Providing a Streamlit dashboard for interactive exploration of the enriched data.
 
 ---
 
@@ -46,59 +43,57 @@ This project requires a Google Gemini API key to interact with the large languag
     ```
     GEMINI_API_KEY=your_actual_gemini_api_key_here
     ```
-    **Security Note:** Do NOT commit your `.env` file to version control (e.g., Git). It's already included in the `.gitignore` to prevent this.
+    **Note:** Do NOT commit your `.env` file to version control (e.g., Git). It's already included in the `.gitignore` to prevent this.
 
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your_username/uniformat_project.git](https://github.com/your_username/uniformat_project.git)
-    cd uniformat_project
-    ```
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ### Running the Data Processing Workflow
 
-The core data extraction and enrichment pipeline can be initiated in two ways:
+The entire data processing and enrichment pipeline is orchestrated and explained within the `Data_preprocessing.ipynb` Jupyter Notebook. This notebook provides a detailed, cell-by-cell explanation and interactive execution of the data preprocessing and enrichment pipeline. It's ideal for understanding how each modular script contributes to the overall process.
 
-1.  **Via the `main_workflow.py` script (recommended for full, automated run):**
-    This script orchestrates the entire data enrichment pipeline from start to finish. It will:
-    * Set up the `uniformat.db` SQLite database in the **root directory** of the project.
-    * Load initial Uniformat codes from `data_sources/uniformat-ii-codes.csv`.
-    * Extract text from `data_sources/uniformat-guide.pdf` (pages 61-83) using `final_scripts/pdf_extractor.py`.
-    * Call the Gemini API via `final_scripts/gemini_processor.py` to extract "Includes" and "Excludes" for Level 3 codes.
-    * Call the Gemini API via `final_scripts/gemini_processor.py` to generate detailed descriptions for all Level 3 codes.
-    * Update the database with all extracted and generated information using `final_scripts/db_operations.py`.
-
-    To run the workflow:
+To run this notebook:
+* Ensure you are in the **root directory** of the project in your terminal.
+* Start Jupyter Notebook:
     ```bash
-    python final_scripts/main_workflow.py
+    jupyter notebook
     ```
-    *Note: This process involves API calls and may take some time to complete depending on the number of elements and API rate limits.*
+* In the Jupyter interface, navigate into the `final_scripts/` folder and open `Data_preprocessing.ipynb`.
+* Execute the cells sequentially. The notebook includes specific instructions within its first cell to correctly set up the Python path for importing modules from the `final_scripts` package and accessing project-root-level files.
 
-2.  **Step-by-step via `Data_preprocessing.ipynb` (recommended for understanding and interactive execution):**
-    This Jupyter Notebook provides a detailed, cell-by-cell explanation and interactive execution of the data preprocessing and enrichment pipeline. It's ideal for understanding how each modular script contributes to the overall process.
+*Note: This process involves API calls and may take some time to complete depending on the number of elements and API rate limits.*
 
-    To run this notebook:
-    * Ensure you are in the **root directory** of the project in your terminal.
-    * Start Jupyter Notebook:
-        ```bash
-        jupyter notebook
-        ```
-    * In the Jupyter interface, navigate into the `final_scripts/` folder and open `Data_preprocessing.ipynb`.
-    * Execute the cells sequentially. The notebook includes specific instructions within its first cell to correctly set up the Python path for importing modules from the `final_scripts` package and accessing project-root-level files.
+---
 
-### Running the Dashboard
+## 3. Data
 
-Once the `uniformat.db` has been populated by the data processing workflow, you can run the interactive Streamlit dashboard.
+* `data_sources/uniformat-ii-codes.csv`: The initial source of Uniformat II codes (Level 1 to Level 4).
+* `data_sources/uniformat-guide.pdf`: The official guide used for extracting detailed "Includes" and "Excludes" information.
+* `uniformat.db`: The SQLite database that stores all processed, extracted, and enriched Uniformat II data. This database will be created and populated in the 'gtech_practicum_data_alignment' **root directory** of the project when the data processing workflow is run.
 
-```bash
-streamlit run dashboard.py
+---
+
+## 4. Model (AI/LLM)
+
+This project leverages the **Google Gemini AI** (specifically `gemini-1.5-flash-latest` and `gemini-2.5-flash` or similar, as configured in `gemini_processor.py`) for:
+* Accurately extracting "Includes" and "Excludes" lists from unstructured text in the PDF.
+* Generating comprehensive and detailed descriptions for each Uniformat Level 3 element based on its name, inclusions, and exclusions.
+
+---
+
+## 5. Repository Structure
+
+.
+├── .env                  \# Environment variables (e.g., GEMINI\_API\_KEY) - NOT committed
+├── .gitignore            \# Specifies intentionally untracked files to ignore
+├── README.md             \# Project overview and setup instructions
+├── environment.yml     \# Python dependencies
+├── uniformat.db          \# SQLite database (generated after running workflow)
+├── data\_sources/
+│   ├── uniformat-ii-codes.csv
+│   └── uniformat-guide.pdf
+└── final\_scripts/
+├── **init**.py           \# Makes final\_scripts a Python package
+├── Data\_preprocessing.ipynb \# Main notebook to run the workflow
+├── db\_operations.py      \# Functions for database interactions
+├── gemini\_processor.py   \# Functions for interacting with Google Gemini API
+└── pdf\_extractor.py      \# Functions for extracting text from PDF
+
